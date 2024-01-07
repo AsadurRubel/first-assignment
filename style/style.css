@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+.header {
+    background-image: url("../resources/Banner\ Image.png");
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    margin-left: 15px;
+}
+
+.new-year {
+    position: relative;
+    top: 177px;
+    color: white;
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.new-year-party {
+    width: 632px;
+    color: white;
+    text-shadow: 2px 2px 5px blue;
+    margin: 200px 344px 177px 344px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}

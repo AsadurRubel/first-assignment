@@ -178,3 +178,70 @@ span{
 }
 
         /* Date And Time Style End */
+
+.bonus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    height: 480px;
+}
+
+.comming-soon{
+    width: 400px;
+    margin-left: 15px;
+}
+
+.offer{
+    color: #F00;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.coming-heading{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+    line-height: 20px;
+}
+.para{
+    color: #636263;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
+.elipse{
+    width: 450px;
+    height: 450px;
+    border: 20px solid #F00;
+    border-radius: 50%;
+    margin-left: -100px;
+    
+}
+
+.elibox{
+    width: 365px;
+    height: 365px;
+    position: relative;
+    top: 42px;
+    left: 42px;
+}
+.new24{
+    width: 280px;
+    margin-right: 20px;
+    position: relative;
+}
+.year{
+    font-size: 48px;
+    color:#F00;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 15px;
+}
+.image{
+    width: 140px;
+    height: 150px;
+    position: relative;
+    top: 75px;
+}

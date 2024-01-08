@@ -80,6 +80,7 @@
     margin-left: 15px;
     display: flex;
     justify-content: space-between;
+    border-radius: 15px;
     
 }
 .group-image{
@@ -179,6 +180,8 @@ span{
 
         /* Date And Time Style End */
 
+        /* Best Offer Style part start */
+
 .bonus{
     display: flex;
     justify-content: space-between;
@@ -244,4 +247,77 @@ span{
     height: 150px;
     position: relative;
     top: 75px;
+}
+
+              /* Best Offer Style part End */
+
+              /* Holidays Sale 50% Style Start */
+
+.function{
+    width: 1320px;
+    margin-left: 15px;
+    margin-top: 120px;
+
+}
+
+.holiday{
+    text-align: center;
+    
+}
+.function-h4{
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.holiday-sale{
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 10px;
+
+}
+.sales-matter{
+    width: 1000px;
+    margin-left: 200px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.discount50{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.image1{
+    width: 800px;
+    height: 665px;
+    position: relative;
+    top: 60px;
+}
+
+.image2{
+    width: 210px;
+    height: 210px;
+    position: relative;
+    right: 40px;
+    
+}
+
+.image3{
+    width: 430px;
+    position: relative;
+    bottom: 50px;
+    right: 160px;
+    z-index: -1;
+}
+.boxred{
+    position: relative;
+    width:1320px;
+    height: 180px;
+    background-color: #F00;
+    border-radius: 15px 0px 0px  15px;
+    bottom: 175px;
+    z-index: -1;
 }

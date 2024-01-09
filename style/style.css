@@ -167,6 +167,7 @@ span{
     color: white;
     padding: 16px 32px;
     font-size: 24px;
+    font-weight: 600;
     border: none;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(128, 128, 129);
@@ -301,7 +302,6 @@ span{
     width: 1320px;
     height: 600px;
     margin: auto;
-    /* background-color: antiquewhite; */
 }
 .image1{
     width: 800px;
@@ -415,15 +415,19 @@ span{
 .email-form{
     padding: 25px 50px 25px 30px;
     border-radius: 50px 0px 0px 50px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Inter', sans-serif;
     border: none;
-    
+}
+.email-form:hover{
+    background-color: rgb(230, 230, 230);
+    transition: .3s;
 }
 .subscribe{
     padding: 25px;
     border-radius: 0px 50px 50px 0px;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 600;
     font-family: 'Inter', sans-serif;
     border: none;
     background-color: #F00;
@@ -432,5 +436,81 @@ span{
     cursor: pointer;
     margin-top: 50px;
 }
+.subscribe:hover{
+    background-color: rgb(129, 3, 3);
+    transition: 0.3s;
+}
+
         /* Newslatter Style Part End */
 
+.footer-all{
+    background-color: black;
+    margin-top: 120px;
+}
+.all-foter{
+    width: 1320px; 
+    height: 600px;
+    margin: auto;
+}
+
+.footer-first{
+    display: flex;
+    justify-content: space-between;
+}
+.my-address{
+    width: 370px;
+    height: 80px;
+    line-height: 40px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+.phone-website{
+    line-height: 40px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-right: 150px;
+    margin-top: 130px;
+}
+.social >ul{
+    display: flex;
+    margin-left: 520px;
+    
+}
+.social>ul>li{
+    list-style: none;
+    margin-top: 85px;
+    padding: 10px;
+}
+.social ul li:hover{
+    cursor: pointer;
+    background-color: #F00;
+    border-radius: 100%;
+    transition: .8s;
+}
+.reserve{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.all-reserve{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-left: 150px;
+    
+}
+.unsubscribe{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    margin-right: 150px;
+    cursor: pointer;
+}
